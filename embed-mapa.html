@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mapa Lesní svět</title>
+  <link rel="stylesheet" crossorigin href="/mapa.lesnisvet.cz/mapa.css">
+  <script type="module" crossorigin src="/mapa.lesnisvet.cz/mapa.js"></script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    lesnisvet-mapa {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <lesnisvet-mapa
+    mapy-api-key="czCm84zjh03UMxkQa69quFa5x3jUSzyARIHn8n3tLNY"
+    api-url="https://api.lesnisvet.cz/graphql"
+  ></lesnisvet-mapa>
+</body>
+</html>
